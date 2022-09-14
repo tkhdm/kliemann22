@@ -1,0 +1,15 @@
+CODEBUCH								
+								
+edgelist	
+
+from = 	definiert den Sender. Entspricht ID in der Nodelist							
+to =	definiert den Empfänger. Entspricht ID in der Nodelist							
+relationship	= definiert die Art der Beziehung: 1 = Geschäftsführer, 2 = Kooperationspartner		
+
+nodelist
+
+id	= eindeutige Identifikation jedes einzelnen Knotens (vertex), der erfasst wird.  							
+name = Name oder Bezeichnung des Knotens. 							
+periodstart	= definiert den Anfang der Geschäftsbeziehung in Jahreszahlen							
+								
+NA	definiert fehlende Werte, bei der Datenerhebung das Feld einfach leer lassen, R rechnet NAs (missing values) automatisch raus..							
